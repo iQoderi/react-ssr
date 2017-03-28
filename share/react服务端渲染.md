@@ -303,5 +303,5 @@ const routes = {
 ![cnode2](http://odljp7x9v.bkt.clouddn.com/cnode/cnode2.png)
 
 ### demo地址
-[http://c.sohuno.com/chaoqi002539/react-ssr.git](http://c.sohuno.com/chaoqi002539/react-ssr.git)
+[https://github.com/iQoderi/react-ssr](https://github.com/iQoderi/react-ssr)
 
