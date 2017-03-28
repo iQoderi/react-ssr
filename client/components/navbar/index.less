@@ -1,0 +1,33 @@
+.header{
+  background-color: #f6f6f6;
+  border-radius: 3px 3px 0 0;
+  padding:10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  .nav-list{
+    li{
+      float: left;
+      a{
+        color: #80bd01;
+        display: block;
+        padding: 0 10px;
+        border-radius: 3px;
+        font-size: 14px;
+        text-decoration: none;
+        &:hover{
+          background-color: #80bd01;
+          color: #fff;
+        }
+      }
+      .active-nav{
+        background-color: #80bd01;
+        color: #fff;
+      }
+    }
+  }
+}

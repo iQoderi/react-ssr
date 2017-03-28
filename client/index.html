@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>react 服务端渲染</title>
+</head>
+<body>
+<div id="app">
+  <div><%- _html_ %></div>
+</div>
+<script>
+  window.INITIAL_STATE = <%- JSON.stringify(_state_) %>
+</script>
+<script src="/assets/bundle.js"></script>
+</body>
+</html>

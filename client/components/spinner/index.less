@@ -1,0 +1,24 @@
+.spinner {
+  -webkit-animation: rotate-forever 1s infinite linear;
+  animation: rotate-forever 1s infinite linear;
+  height: 30px;
+  width: 30px;
+  border: 4px solid #919191;
+  border-right-color: transparent;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 10000;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 75px;
+}
+
+@keyframes rotate-forever {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

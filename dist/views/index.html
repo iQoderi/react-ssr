@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>react 服务端渲染</title>
+  <link rel="stylesheet" href="http://odljp7x9v.bkt.clouddn.com/cnode/style.026496ad.css">
+</head>
+<body>
+<div id="app">
+  <div><%- _html_ %></div>
+</div>
+<script>
+  window.INITIAL_STATE = <%- JSON.stringify(_state_) %>
+</script>
+<script src="http://odljp7x9v.bkt.clouddn.com/cnode/vendor2.c1fd7725.js"></script>
+<script src="http://odljp7x9v.bkt.clouddn.com/cnode/vendor1.6196208d.js"></script>
+<script src="http://odljp7x9v.bkt.clouddn.com/cnode/bundle.87bb36d5.js"></script>
+</body>
+</html>
